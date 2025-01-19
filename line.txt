@@ -24,7 +24,7 @@ Onfocus???????
 3.	Company name:
 
 (//input[@name="company"])[1]
-.form-control (elements 8 matching) Eger burda bir necedirse onu nece tapmaq olar? 
+.form-control (elements 8 matching) 
 (//input[@placeholder="Enter your company"])[1]
 
 4.	Mobil number: 
