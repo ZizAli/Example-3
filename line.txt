@@ -1,1 +1,55 @@
-Salam dunya
+1.	Email:
+ 
+#shub3
+//input[@title="Email"]
+(//input[@spellcheck='false'])[1]
+//input[@autocomplete='anyrandomstring']
+//input[@name='email']
+//input[@placeholder='Enter email']
+//input[@type='email']
+//input[@dataid='sh_email1']
+Onfocus???????
+
+2.	Password 
+
+#pass
+.selectors-input.jsSelector  (2element)
+//input[@title="Password"]
+(//input[@spellcheck='false'])[1]
+//input[@autocomplete='off_anyrandomstring']
+//input[@name='Password']
+//input[@type='password']
+//input[@placeholder='Enter Password']   neden burda value sozu yazilmadi?
+
+3.	Company name:
+
+(//input[@name="company"])[1]
+.form-control (elements 8 matching) Eger burda bir necedirse onu nece tapmaq olar? 
+(//input[@placeholder="Enter your company"])[1]
+
+4.	Mobil number: 
+
+(//input[@name="mobile number"])[1]  
+.form-control (elements 8 matching)
+(//input[@placeholder='Enter your mobile number'])[1]
+
+5.	Submit: 
+
+//button[@value="Submit"]
+
+6.	A tool to generate manual test cases automatically TestCase Studio - DownLoad Link:
+
+//span[@xpath="1"]
+
+7.	Can you enter name here through automation:
+
+//*[name()='path' and contains(@d,'M20.807,3.')]   ??????????????
+  
+8.	Checkout here: 
+.dropbtn
+
+9.	Auto type (Volvo):
+#cars
+//select[@name='cars']
+//select[@style='width:auto;display:inline-block;']
+//select[@xpath='1']
